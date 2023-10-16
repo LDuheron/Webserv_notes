@@ -1,0 +1,39 @@
+
+https://developer.mozilla.org/en-US/docs/Web/HTTP/Overview
+
+
+Protocol
+A protocol is a system of rules that define how data is exchanged within or between computers. Communications between devices require that the devices agree on the format of the data that is being exchanged. The set of rules that defines a format is called a protocol.
+
+HTTP = protocol for fetching ressources such as HTML documents.
+
+Clients = Webs browser.
+HTTP is a client-server protocol: requests are sent by one entity, the user-agent (or a proxy on behalf of it). Most of the time the user-agent is a Web browser, but it can be anything, for example, a robot that crawls the Web to populate and maintain a search engine index
+Clients and servers communicate by exchanging individual messages.
+The messages sent by the client, usually a Web browser, are called requests and the messages 
+sent by the server as an answer are called responses.
+
+
+Each individual request is sent to a server, which handles it and provides an answer called the response.
+
+
+Proxy server:
+A proxy server is an intermediate program or computer used when navigating through different networks of the Internet. 
+Permet d'ameliorer la securite, la confidentialite etla performance ou la gestion de service.
+Les fonctions principales d'un proxy sont de rediriger les demandes du client vers le serveur approprié, 
+A proxy intercepts requests and serves back responses; it may forward the requests, or not (for example in the case of a cache),
+and it may modify it (for example changing its headers, at the boundary between two networks).
+
+two main types of proxys servers :
+
+-A forward proxy that handles requests from and to anywhere on the Internet.
+- A reverse proxy taking requests from the Internet and forwarding them to servers in an internal network.
+
+A cache (web cache or HTTP cache) is a component that stores HTTP responses temporarily so that it can be used for subsequent HTTP 
+requests as long as it meets certain conditions.
+
+User agent = any tool that acts on behalf of the user.
+
+The browser is always the entity initiating the request. it is never the serv.
+
+Hypertext : means some parts of the displayed content are links
